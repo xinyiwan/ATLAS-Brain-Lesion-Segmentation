@@ -1,3 +1,3 @@
-# deep_learning_G5
+# Brain Lesion Segmentation CM2003 Course Project
 
-Course labs and project
+The previous labs can still be found under /Labs
