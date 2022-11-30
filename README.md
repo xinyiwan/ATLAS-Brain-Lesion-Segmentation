@@ -50,28 +50,32 @@ python train_model.py
 python transfer_learning.py
 ```
 
-
 ## Models and Results:
 
 All the models are based on 2D U-Net architecture.
 
+**Pre-Trained Model on Tumour Segmentation (Brast17)**
 
-Pre-Trained Model on Tumour Segmentation (Brast17)
-
-| Batch size | Dropout ratio | Normalisation | Augmentation | Learning rate |         Metrics         |
-| :--------: | :-----------: | :-----------: | :----------: | :-----------: | :---------------------: |
-|     8     |      0.2      |     True     |    False    |     1e-4     | Dice, Precision, Recall |
+| Batch size | Weight Strength| Dropout ratio | Normalization | Augmentation | Learning rate |         Metrics         |
+| :--------:| :-----------: | :-----------: | :-----------: | :----------: | :-----------: | :---------------------: |
+|     8    | 1.0 |      0.2      |     True     |    False    |     1e-4     | Dice, Precision, Recall |
 
 ![1669807553806](image/README/1669807553806.png)
 
 ![1669807788449](image/README/1669807788449.png)
 
-Model on Lesion Segmentation (ATLAS)
+**Model on Lesion Segmentation (ATLAS)**
 
-| Batch size | Dropout ratio | Normalisation | Augmentation | Learning rate |         Metrics         |
-| :--------: | :-----------: | :-----------: | :----------: | :-----------: | :---------------------: |
-|     8     |      0.2      |     True     |    False    |     1e-4     | Dice, Precision, Recall |
+| Batch size | Weight Strength| Dropout ratio | Normalization | Augmentation | Learning rate |         Metrics         |
+| :--------: | :-----------: | :-----------: | :-----------: | :----------: | :-----------: | :---------------------: |
+|     8     |   1.0    |      0.2      |     True     |    False    |     1e-4     | Dice, Precision, Recall |
 
 ![1669807681025](image/README/1669807681025.png)
 
 ![1669807809466](image/README/1669807809466.png)
+
+**Transfer Learning Model on Lesion Segmentation**
+
+| Batch size | Weight Strength| Dropout ratio | Normalization | Augmentation | Learning rate |         Metrics         |
+| :--------: | :-----------:| :-----------: | :-----------: | :----------: | :-----------: | :---------------------: |
+|     8   |   1.0  |      0.2      |     True     |     True     |     1e-5     | Dice, Precision, Recall |
