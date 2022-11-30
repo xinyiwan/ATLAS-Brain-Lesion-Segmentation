@@ -64,6 +64,7 @@ Pre-Trained Model on Tumour Segmentation (Brast17)
 
 ![1669807553806](image/README/1669807553806.png)
 
+![1669807788449](image/README/1669807788449.png)
 
 Model on Lesion Segmentation (ATLAS)
 
@@ -72,3 +73,5 @@ Model on Lesion Segmentation (ATLAS)
 |     8     |      0.2      |     True     |    False    |     1e-4     | Dice, Precision, Recall |
 
 ![1669807681025](image/README/1669807681025.png)
+
+![1669807809466](image/README/1669807809466.png)
