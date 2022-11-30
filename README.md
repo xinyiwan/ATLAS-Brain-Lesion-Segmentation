@@ -1,3 +1,5 @@
+![1669804869578](image/README/1669804869578.png)
+
 # Brain Lesion Segmentation CM2003 Course Project
 
 [🔹]() Note: The previous labs and reports can still be found under `/Labs`
@@ -38,11 +40,15 @@ Python pre_train_model.py
 
 2. Train the model based on lesion dataset
 
-   ```
-   python train_model.py
-   ```
+```
+python train_model.py
+```
+
 3. Using transfer learning to train the tumour model on lesion dataset
 
-   ```
-   python transfer_learning.py
-   ```
+```
+python transfer_learning.py
+```
+
+
+Model Per
