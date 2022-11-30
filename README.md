@@ -24,14 +24,25 @@ and recall are the main metrics.
 
 [🔹]() Note: All the 2D slices are saved locally during the training. Before running the following steps, please change the corresponding work paths.
 
-Preprocessing:
+0. Preprocessing:
 
 ```
-Python prep.py
+python prep.py
 ```
 
-Pre-train:
+1. Pre-train the model based on tumour dataset
 
 ```
 Python pre_train_model.py
 ```
+
+2. Train the model based on lesion dataset
+
+   ```
+   python train_model.py
+   ```
+3. Using transfer learning to train the tumour model on lesion dataset
+
+   ```
+   python transfer_learning.py
+   ```
