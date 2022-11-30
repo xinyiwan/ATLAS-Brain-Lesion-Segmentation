@@ -1,4 +1,4 @@
-![1669804869578](image/README/1669804869578.png)
+![1669805347640](image/README/1669805347640.png)
 
 # Brain Lesion Segmentation CM2003 Course Project
 
@@ -8,7 +8,7 @@
 
 ATLAS consists of T1w MRIs and manually segmented lesion masks that includes training (n = 655), test (hidden masks, n = 300). The purpose of this project is to implement a deep learning model for better lesion segmentation on brain MRI images. This dataset can be found [here](https://atlas.grand-challenge.org/ATLAS/) on Grand Challenge.
 
-ATLAS is part of the Ischemic Stroke Lesion Segmentation (ISLES) Challenge at the International Conference on Medical Image Computing and Computer Assisted Intervention ([MICCAI](http://www. isles-challenge.org/)) in 2022.
+ATLAS is part of the Ischemic Stroke Lesion Segmentation (ISLES) Challenge at the International Conference on Medical Image Computing and Computer Assisted Intervention ([MICCAI](http://www. isles-challenge.org/)) in 2022
 
 ## Data Preprocessing
 
