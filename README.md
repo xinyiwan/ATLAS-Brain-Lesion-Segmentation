@@ -6,9 +6,9 @@
 
 ## ATLAS - Anatomical Tracings of Lesions After Stroke MICCAI CHALLENG
 
-ATLAS consists of T1w MRIs and manually segmented lesion masks that includes training (n = 655), test (hidden masks, n = 300). The purpose of this project is to implement a deep learning model for better lesion segmentation on brain MRI images. This dataset can be found [here](https://atlas.grand-challenge.org/ATLAS/) on Grand Challenge.
+*ATLAS* consists of T1w MRIs and manually segmented lesion masks that includes training (n = 655), test (hidden masks, n = 300). The purpose of this project is to implement a deep learning model for better lesion segmentation on brain MRI images. This dataset can be found [here](https://atlas.grand-challenge.org/ATLAS/) on Grand Challenge.
 
-ATLAS is part of the Ischemic Stroke Lesion Segmentation (ISLES) Challenge at the International Conference on Medical Image Computing and Computer Assisted Intervention ([MICCAI](http://www. isles-challenge.org/)) in 2022
+*Brast17* dataset is from the course lab, which consists of around 9000 T1w MRI images of brain tumour and related masks. The pretrained model used in the transfer learning step is trained with this dataset.
 
 ## Data Preprocessing
 
@@ -51,4 +51,15 @@ python transfer_learning.py
 ```
 
 
-Model Per
+## Models and Results:
+
+All the models are based on 2D U-Net architecture.
+
+
+Pre-Trained Model on Tumour Segmentation (Brast17)
+
+| Batch size | Dropout ratio | Normalisation | Augmentation | Learning rate |         Metrics         |
+| :--------: | :-----------: | :-----------: | :----------: | :-----------: | :---------------------: |
+|     8     |      0.2      |     True     |    False    |     1e-4     | Dice, Precision, Recall |
+
+![1669807318311](image/README/1669807318311.png)![1669807328959](image/README/1669807328959.png)![1669807335378](image/README/1669807335378.png)![1669807338923](image/README/1669807338923.png)
