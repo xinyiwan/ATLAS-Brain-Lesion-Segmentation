@@ -62,4 +62,13 @@ Pre-Trained Model on Tumour Segmentation (Brast17)
 | :--------: | :-----------: | :-----------: | :----------: | :-----------: | :---------------------: |
 |     8     |      0.2      |     True     |    False    |     1e-4     | Dice, Precision, Recall |
 
-![1669807318311](image/README/1669807318311.png)![1669807328959](image/README/1669807328959.png)![1669807335378](image/README/1669807335378.png)![1669807338923](image/README/1669807338923.png)
+![1669807553806](image/README/1669807553806.png)
+
+
+Model on Lesion Segmentation (ATLAS)
+
+| Batch size | Dropout ratio | Normalisation | Augmentation | Learning rate |         Metrics         |
+| :--------: | :-----------: | :-----------: | :----------: | :-----------: | :---------------------: |
+|     8     |      0.2      |     True     |    False    |     1e-4     | Dice, Precision, Recall |
+
+![1669807681025](image/README/1669807681025.png)
