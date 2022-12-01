@@ -81,3 +81,5 @@ All the models are based on 2D U-Net architecture.
 |     8     |       1.0       |      0.2      |     True     |     True     |     1e-5     | Dice, Precision, Recall |
 
 ![1669854605810](image/README/1669854605810.png)
+
+![1669854645959](image/README/1669854645959.png)
