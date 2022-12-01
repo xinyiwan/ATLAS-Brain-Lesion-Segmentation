@@ -58,7 +58,7 @@ All the models are based on 2D U-Net architecture.
 
 | Batch size | Weight Strength | Dropout ratio | Normalization | Augmentation | Learning rate |         Metrics         |
 | :--------: | :-------------: | :-----------: | :-----------: | :----------: | :-----------: | :---------------------: |
-|     8     |       0.8       |      0.2      |     True     |    False    |     1e-4     | Dice, Precision, Recall |
+|     8     |                |      0.2      |     True     |    False    |     1e-4     | Dice, Precision, Recall |
 
 ![1669807553806](image/README/1669807553806.png)
 
@@ -78,7 +78,7 @@ All the models are based on 2D U-Net architecture.
 
 | Batch size | Weight Strength | Dropout ratio | Normalization | Augmentation | Learning rate |         Metrics         |
 | :--------: | :-------------: | :-----------: | :-----------: | :----------: | :-----------: | :---------------------: |
-|     8     |       1.0       |      0.2      |     True     |     True     |     1e-5     | Dice, Precision, Recall |
+|     8     |       0.8       |      0.2      |     True     |     True     |     1e-5     | Dice, Precision, Recall |
 
 ![1669854605810](image/README/1669854605810.png)
 
