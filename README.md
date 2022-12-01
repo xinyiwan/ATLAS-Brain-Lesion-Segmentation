@@ -56,9 +56,9 @@ All the models are based on 2D U-Net architecture.
 
 **Pre-Trained Model on Tumour Segmentation (Brast17)**
 
-| Batch size | Weight Strength| Dropout ratio | Normalization | Augmentation | Learning rate |         Metrics         |
-| :--------:| :-----------: | :-----------: | :-----------: | :----------: | :-----------: | :---------------------: |
-|     8    | 1.0 |      0.2      |     True     |    False    |     1e-4     | Dice, Precision, Recall |
+| Batch size | Weight Strength | Dropout ratio | Normalization | Augmentation | Learning rate |         Metrics         |
+| :--------: | :-------------: | :-----------: | :-----------: | :----------: | :-----------: | :---------------------: |
+|     8     |       0.8       |      0.2      |     True     |    False    |     1e-4     | Dice, Precision, Recall |
 
 ![1669807553806](image/README/1669807553806.png)
 
@@ -66,9 +66,9 @@ All the models are based on 2D U-Net architecture.
 
 **Model on Lesion Segmentation (ATLAS)**
 
-| Batch size | Weight Strength| Dropout ratio | Normalization | Augmentation | Learning rate |         Metrics         |
-| :--------: | :-----------: | :-----------: | :-----------: | :----------: | :-----------: | :---------------------: |
-|     8     |   1.0    |      0.2      |     True     |    False    |     1e-4     | Dice, Precision, Recall |
+| Batch size | Weight Strength | Dropout ratio | Normalization | Augmentation | Learning rate |         Metrics         |
+| :--------: | :-------------: | :-----------: | :-----------: | :----------: | :-----------: | :---------------------: |
+|     8     |       1.0       |      0.2      |     True     |    False    |     1e-4     | Dice, Precision, Recall |
 
 ![1669807681025](image/README/1669807681025.png)
 
@@ -76,6 +76,8 @@ All the models are based on 2D U-Net architecture.
 
 **Transfer Learning Model on Lesion Segmentation**
 
-| Batch size | Weight Strength| Dropout ratio | Normalization | Augmentation | Learning rate |         Metrics         |
-| :--------: | :-----------:| :-----------: | :-----------: | :----------: | :-----------: | :---------------------: |
-|     8   |   1.0  |      0.2      |     True     |     True     |     1e-5     | Dice, Precision, Recall |
+| Batch size | Weight Strength | Dropout ratio | Normalization | Augmentation | Learning rate |         Metrics         |
+| :--------: | :-------------: | :-----------: | :-----------: | :----------: | :-----------: | :---------------------: |
+|     8     |       1.0       |      0.2      |     True     |     True     |     1e-5     | Dice, Precision, Recall |
+
+![1669854605810](image/README/1669854605810.png)
